@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Tervetuloa käyttämään sovellusta!</Text>
+      <Text style={{fontWeight: 'bold'}}>Tervetuloa käyttämään sovellusta!</Text>
       <StatusBar style="auto" />
     </View>
   );
